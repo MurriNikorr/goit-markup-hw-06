@@ -38,6 +38,7 @@ img {
   --color-link: #404bbf;
   --cust-icon: #afb1b8;
   --modal: #fcfcfc;
+  --modal-text: #8e8f99;
 }
 
 body {
@@ -305,12 +306,13 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
-  color: var(--modal-p);
+  color: var(--modal-text);
 }
 .modal-label span {
   display: block;
 }
 .modal-text {
+  color: var(--modal-text);
   margin-bottom: 4px;
 }
 .modal-wrap {
@@ -397,7 +399,7 @@ body {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.04em;
-  color: var(--modal-p);
+  color: var(--modal-text);
   margin-top: 12px;
   margin-bottom: 16px;
 
